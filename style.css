@@ -1,0 +1,30 @@
+/*Header Background*/
+header{
+    background-image: url("./imgs/takashi-miyazaki-BFQlxG_tsg4-unsplash.jpg");
+    background-size: cover; 
+}
+/*Header Overlay*/
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/*Header content*/
+header > div{
+    max-width: 35em;
+}
+
+/*Footer Icons*/
+footer .icons{
+    font-size: 1.5em;
+}
+
+.card, .shadow{
+    box-shadow: rgba(100, 100, 111, 0.2)0px 7px 29px 0px;
+}
